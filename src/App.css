@@ -9,5 +9,34 @@
   --p: 1vw;
   --h1: 3vw;
   --h2: 2vw;
+
+  --sidebar-cont-h: calc(100vh - 85px);
+  --sidebar-h: calc(100vh - 85px);
 }
 
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar-y::-webkit-scrollbar {
+  width: 0;
+}
+
+.no-scrollbar-x::-webkit-scrollbar {
+  height: 0;
+}
+
+.no-scrollbar-y,
+.no-scrollbar-x {
+  scrollbar-width: none;
+}
+
+/* body, html {
+  height: 100%;
+  overflow: hidden;
+} */

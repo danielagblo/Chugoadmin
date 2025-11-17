@@ -279,19 +279,19 @@ export const LogoutIcon = ({ className, ...props }: IconProps) => (
 );
 
 export const AddIcon = ({ className, ...props }: IconProps) => (
-  <svg
-    viewBox="0 0 43 41"
-    fill="none"
+  <svg 
+    width="43" 
+    height="41" 
+    viewBox="0 0 43 41" 
+    fill="none" 
     xmlns="http://www.w3.org/2000/svg"
     className={className}
     {...props}
   >
-    <ellipse cx="21.5" cy="20.5" rx="21.5" ry="20.5" fill="black" />
-    <path
-      d="M20.9545 26.8068V15.5568H22.8636V26.8068H20.9545ZM16.2841 22.1364V20.2273H27.5341V22.1364H16.2841Z"
-      fill="white"
-    />
+    <ellipse cx="21.5" cy="20.5" rx="21.5" ry="20.5" fill="black"/>
+    <path d="M20.9545 26.8068V15.5568H22.8636V26.8068H20.9545ZM16.2841 22.1364V20.2273H27.5341V22.1364H16.2841Z" fill="white"/>
   </svg>
+
 );
 
 export const SearchIcon = ({ className, ...props }: IconProps) => (
@@ -764,6 +764,13 @@ export const TickDarkIcon = ({ className, ...props }: IconProps) => (
     </defs>
   </svg>
 );
+
+export const TickDoubleIcon = ({ className, ...props }: IconProps) => (
+  <svg width="27" height="16" viewBox="0 0 27 16" fill="none" xmlns="http://www.w3.org/2000/svg" className={className} {...props}>
+    <path d="M1.5 9.5L6.3 14.5M13.02 6.5L17.82 1.5M9.18 9.5L13.98 14.5L25.5 1.5" stroke="#74FFA7" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+
+)
 
 export const PhoneIcon = ({ className, ...props }: IconProps) => (
   <svg
